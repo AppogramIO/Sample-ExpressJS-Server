@@ -82,11 +82,10 @@ app.get('/DrawMultiBarChart',(req,res)=>{
     chart1.name = "set1";
     chart1.setColor = [ "#004D40", "#8085e9", "#f15c80", "#e4d354", "#434348", "#90ed7d", "#f7a35c" ]
     chart1.points = [ { x : "Rome", y : "11" },  { x : "London", y : "43" },  { x : "Paris", y : "167" },  { x : "Bern", y : "17" } ]
-    //  charts[0].points :  {  { x : "USA", y = "24" },  { x = "Fiji", y = "38" },  { x = "UK", y = "77" },  { x = "Italy", y = "17" },  { x = "PR", y = "53" },  { x = "IR", y = "19" },  { x = "India", y = "99" } };
 
    const chart2  = {}
     chart2.name = "set2";
-    chart2.setColor ["#7cb5ec", "#434348", "#90ed7d", "#f7a35c", "#8085e9", "#f15c80", "#e4d354" ]
+    chart2.setColor = ["#7cb5ec", "#434348", "#90ed7d", "#f7a35c", "#8085e9", "#f15c80", "#e4d354" ]
     chart2.points =[{ x : "Rome", y : "12" },  { x : "London", y : "24" },  { x : "Paris", y : "125" },  { x : "Bern", y : "7" }]
 
     charts.push(chart1)
@@ -178,7 +177,6 @@ app.get('/DrawMultiLinearChart',(req,res)=>{
     chart1.endColor = "#FFFFFF";
     chart1.circleColor = "#51BBD1";
     chart1.borderColor = "#8085e9";
-   // chart1.points = new List<Point> { { x = "USA", y = "24" }, { x = "Fiji", y = "38" }, { x = "UK", y = "77" }, { x = "Italy", y = "17" }, { x = "PR", y = "53" }, { x = "IR", y = "19" }, { x = "India", y = "99" } };
     chart1.points = [ { x : "Rome", y : "72" }, { x : "London", y : "84" }, { x : "Paris", y : "105" }, { x : "Bern", y : "57" } ]
 
     const chart2 = {}
